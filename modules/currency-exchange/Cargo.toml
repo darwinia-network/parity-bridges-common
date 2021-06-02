@@ -18,15 +18,15 @@ bp-header-chain = { path = "../../primitives/header-chain", default-features = f
 
 # Substrate Dependencies
 
-frame-benchmarking = { git = "https://github.com/darwinia-network/substrate", branch = "s2s", default-features = false, optional = true }
-frame-support = { git = "https://github.com/darwinia-network/substrate", branch = "s2s", default-features = false }
-frame-system = { git = "https://github.com/darwinia-network/substrate", branch = "s2s", default-features = false }
-sp-runtime = { git = "https://github.com/darwinia-network/substrate", branch = "s2s", default-features = false }
-sp-std = { git = "https://github.com/darwinia-network/substrate", branch = "s2s", default-features = false, optional = true }
+frame-benchmarking = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1", default-features = false, optional = true }
+frame-support = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1", default-features = false }
+frame-system = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1", default-features = false }
+sp-runtime = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1", default-features = false }
+sp-std = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1", default-features = false, optional = true }
 
 [dev-dependencies]
-sp-core = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-io = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
+sp-core = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-io = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
 
 [features]
 default = ["std"]

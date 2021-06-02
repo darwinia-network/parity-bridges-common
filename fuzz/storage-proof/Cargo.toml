@@ -23,12 +23,12 @@ bp-test-utils = { path = "../../primitives/test-utils" }
 
 # Substrate Dependencies
 
-frame-support = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-frame-system = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-core = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-finality-grandpa = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-io = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-runtime = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-state-machine = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-std = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-trie = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
+frame-support = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+frame-system = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-core = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-finality-grandpa = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-io = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-runtime = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-state-machine = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-std = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-trie = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }

@@ -17,9 +17,9 @@ bp-kusama = { path = "../../primitives/chain-kusama" }
 
 # Substrate Dependencies
 
-frame-system = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-frame-support = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-pallet-transaction-payment = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-core = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-keyring = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-runtime = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
+frame-system = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+frame-support = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+pallet-transaction-payment = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-core = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-keyring = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-runtime = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }

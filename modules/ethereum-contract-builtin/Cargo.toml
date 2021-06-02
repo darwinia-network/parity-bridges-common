@@ -19,10 +19,10 @@ rialto-runtime = { path = "../../bin/rialto/runtime" }
 
 # Substrate Dependencies
 
-sc-finality-grandpa = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-blockchain = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-finality-grandpa = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
-sp-runtime = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
+sc-finality-grandpa = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-blockchain = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-finality-grandpa = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
+sp-runtime = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
 
 [dev-dependencies]
-sp-core = { git = "https://github.com/darwinia-network/substrate", branch = "s2s" }
+sp-core = { git = "https://github.com/darwinia-network/substrate", tag = "darwinia-v0.11.1" }
